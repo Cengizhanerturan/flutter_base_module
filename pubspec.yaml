@@ -1,0 +1,34 @@
+name: flutter_base_module
+description: A Flutter Base Module.
+version: 0.0.1
+homepage: https://github.com/cengizhanerturan/flutter_base_module.git
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.3+1
+  get: ^4.6.6
+  logger: ^2.3.0
+  path_provider: ^2.1.3
+  get_storage: ^2.1.1
+  auto_size_text: ^3.0.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  module:
+    androidX: true
+    androidPackage: com.example.flutter_base_module_module
+    iosBundleIdentifier: com.example.flutter_base_module_module

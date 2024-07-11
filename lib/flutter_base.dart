@@ -1,0 +1,13 @@
+export 'package:flutter_base_module/core/base/base_class.dart';
+export 'package:flutter_base_module/core/base/base_controller.dart';
+export 'package:flutter_base_module/core/base/base_get_view.dart';
+export 'package:flutter_base_module/core/base/base_getx_controller.dart';
+export 'package:flutter_base_module/core/base/base_getx_service.dart';
+export 'package:flutter_base_module/core/base/base_stateless_widget.dart';
+export 'package:flutter_base_module/core/data/data_state.dart';
+export 'package:flutter_base_module/core/models/enums/enums.dart';
+export 'package:flutter_base_module/core/services/cache_service.dart';
+export 'package:flutter_base_module/getx_manager.dart';
+export 'package:flutter_base_module/core/utils/size_config.dart';
+export 'package:flutter_base_module/core/utils/scale_factor_text.dart';
+export 'package:flutter_base_module/core/utils/scale_factor_auto_size_text.dart';
